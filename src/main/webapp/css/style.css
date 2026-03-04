@@ -1,0 +1,555 @@
+@charset "ISO-8859-1";
+:root{
+	--bs-font1:"Sedan SC", serif;
+	--bs-font2:"Briem Hand", cursive;
+	--bs-font3:"Instrument Serif", serif;
+	--bs-font4:"Roboto", sans-serif;
+	--bs-font5:"Playfair Display", serif;
+	--bs-font6:"Dancing Script", cursive;
+	--bs-font7:"DM Serif Display", serif;
+}
+.font1{
+    font-family: var(--bs-font1);
+}
+.font2{
+    font-family: var(--bs-font2);
+}
+.font3{
+    font-family: var(--bs-font3);
+}
+.font4{
+    font-family: var(--bs-font4);
+}
+.font5{
+    font-family: var(--bs-font5);
+}
+.font6{
+    font-family: var(--bs-font6);
+}
+.font7{
+    font-family: var(--bs-font7);
+}
+html{
+scroll-behavior: smooth;
+
+}
+
+#welcome {
+  background: url(../Images/Login_image.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+#signup {
+	background: url(../Images/Signup2.jpg);
+	background-size: 100% 100%;
+}
+#forgot {
+	background: url(../Images/forgot.jpg);
+	background-size: 100% 100%;
+}
+#welcome .card {
+  backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(28, 38, 57, 0.75);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.200);
+}
+
+#welcome .card:hover {
+  transition-duration: 0.5s;
+  background-color: rgba(18, 26, 43, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.500);
+}
+#forgot .card{
+	backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(28, 38, 57, 0.75);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.200);
+}
+#forgot .card:hover{
+	transition-duration: 0.5s;
+    background-color: rgba(18, 26, 43, 0.75);
+    border: 2px solid rgba(255, 255, 255, 0.500);
+}
+#signup .card{
+  backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(28, 38, 57, 0.75);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.200);
+}
+
+#signup .card:hover {
+    transition-duration: 0.5s;
+    background-color: rgba(18, 26, 43, 0.75);
+    border: 2px solid rgba(255, 255, 255, 0.500);
+}
+
+.inputdesign{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  border: 1px solid white;
+  padding: 5px 30px;
+  color: aliceblue;
+}
+
+.abutton{
+	background:white;
+	color:Black;
+	text-decoration:none;
+	transition-duration: 0.3s;
+	border-radius:6px;
+}
+
+.butt_on:hover{
+	transition-duration: 0.3s;
+    backdrop-filter: blur(10px) saturate(200%);
+    border-radius:6px ;
+    background-color: rgba(124, 172, 134, 0.26);
+    border: 2px solid rgba(255, 255, 255, 0.125);
+    color:white;
+}
+
+#header{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(../Images/home/hero-image.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expbut{
+	background-color:#8e2157;
+	color:white;	
+}
+
+.expbut:hover{
+	transition-duration: 0.3s;
+    backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(124, 172, 134, 0.30);
+    border: 2px solid rgba(255, 255, 255, 0.400);
+    color:white;
+}
+
+.dropdown-item:hover{
+	backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(124, 172, 134, 0.30);
+    border: 2px solid rgba(255, 255, 255, 0.400);
+}
+
+.booking-box{
+    margin-top: -50px;
+    box-shadow: 0px 10px 10px gray;
+    background-color: #8e2157;
+}
+
+.booking-box .nav-link{
+  color: black;
+  background-color: rgba(211, 211, 211, 0.400);
+}
+
+.booking-box .nav-link:hover{
+  color: #8e2157;
+  background-color: #fff;
+}
+
+.card-world {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  height: 350px;
+}
+
+.card-img {
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+
+.card-world:hover .card-img {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+.card-img-overlay{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.3),rgba(0,0,0,0.7));
+}
+.card-img-overlay:hover{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  transition:  0.3s ease;
+}
+.card-img-overlay a{
+  display: none;
+}
+.card-world:hover a{
+  transition: 0.3s ease-in-out;
+  display: block;
+}
+
+.butt_on:hover{
+	transition-duration: 0.3s;
+    backdrop-filter: blur(10px) saturate(200%);
+    border-radius:6px ;
+    background-color: rgba(124, 172, 134, 0.26);
+    border: 2px solid rgba(255, 255, 255, 0.125);
+    color:white;
+}
+
+#cargo{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(../Images/cargo/Cargo-hero.jpg) no-repeat center;
+    background-size: 100% 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cargo .card {
+    backdrop-filter: blur(2px) saturate(200%);
+    background-color: rgba(8, 13, 23, 0.521);
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.111);
+    transition: 0.5s;
+}
+#cargo .card:hover{
+    backdrop-filter: blur(4px) saturate(200%);
+    background-color: rgba(8, 13, 23, 0.667);
+    border: 2px solid rgba(255, 255, 255, 0.333);
+}
+#cargo-service .card-img-top{
+    height: 300px;
+    transition: 0.5s;
+}
+#cargo-service .card-img-top:hover{
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+
+#cargo-flight{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../Images/Flights-type/multi-city-background.jpg);
+  background-size: 100% 100%;
+}
+#cargo-flight .card {
+  backdrop-filter: blur(2px) saturate(200%);
+  background-color: rgba(75, 93, 130, 0.521);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.111);
+  transition: 0.5s;
+}
+#cargo-flight .card:hover{
+  backdrop-filter: blur(4px) saturate(200%);
+    background-color: rgba(8, 13, 23, 0.667);
+    border: 2px solid rgba(255, 255, 255, 0.333);
+}
+
+ 
+.fa-plane-departure{
+  font-size: 40px;
+  color: #8e2157;
+}
+.fa-plane{
+  font-size: 50px;
+  color: #a6c0fe;
+
+}
+.fontcolor{
+  color: #a6c0fe;
+}
+.fontcolor2{
+	color: #8e2157;
+}
+#one-way-flight{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../Images/Flights-type/one-way-background.jpg);
+  background-size: 100% 100%;
+}
+#one-way-flight .card {
+  backdrop-filter: blur(2px) saturate(200%);
+  background-color: rgba(75, 93, 130, 0.521);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.111);
+  transition: 0.5s;
+}
+#one-way-flight .card:hover{
+  backdrop-filter: blur(4px) saturate(200%);
+    background-color: rgba(8, 13, 23, 0.667);
+    border: 2px solid rgba(255, 255, 255, 0.333);
+}
+#one-way-flight .card:hover .fontcolor{
+	color:#8e2157;
+}
+.searchflight{
+	color: #8e2157;
+	border-radius: 16px;
+	border: 2px solid #8e2157;
+	font-weight:bold;
+	
+}
+.searchflight:hover{
+	transition-duration: 0.3s;
+	color:#ffff;
+	background-color: #8e2157;
+	border: 2px solid #ffff;
+}
+#return-flight{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(../Images/Flights-type/return-flight-background.jpg);
+  background-size: 100% 100%;
+}
+#return-flight .card {
+  backdrop-filter: blur(2px) saturate(200%);
+  background-color: rgba(43, 75, 139, 0.224);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.111);
+  transition: 0.5s;
+}
+#return-flight .card:hover{
+  backdrop-filter: blur(4px) saturate(200%);
+  background-color: rgba(8, 13, 23, 0.667);
+  border: 2px solid rgba(255, 255, 255, 0.333);
+  color: #8e2157; 
+}
+
+#multicity-flight{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(../Images/Flights-type/multi-city-background.jpg);
+  background-size: 100% 100%;
+}
+#multicity-flight .card {
+  backdrop-filter: blur(2px) saturate(200%);
+  background-color: rgba(43, 75, 139, 0.224);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.111);
+  transition: 0.5s;
+}
+#multicity-flight .card:hover{
+  backdrop-filter: blur(4px) saturate(200%);
+  background-color: rgba(8, 13, 23, 0.667);
+  border: 2px solid rgba(255, 255, 255, 0.333);
+  color: #8e2157; 
+}
+
+
+#explore_india{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(../Images/India/india-flag.jpg) no-repeat center;
+    background-size: 100% 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bookflights-india .booking-box{
+	margin-top: -100px;
+    box-shadow: 0px 10px 10px gray;
+    background-color: #ff9933;
+}
+#bookflights-india .searchflight{
+	color: #ff9933;
+	border-radius: 16px;
+	border: 2px solid #ff9933;
+	font-weight:bold;
+	
+}
+#bookflights-india .searchflight:hover{
+	transition-duration: 0.3s;
+	color:#ffff;
+	background-color: #ff9933;
+	border: 2px solid #ffff;
+}
+#bookflights-india .booking-box .nav-link:hover{
+  color: #ff9933;
+  background-color: #fff;
+}
+#bookflights-india .searchflight{
+	color: #ff9933;
+	border-radius: 16px;
+	border: 2px solid #ff9933;
+	font-weight:bold;
+	
+}
+#bookflights-india .searchflight:hover{
+	transition-duration: 0.3s;
+	color:#ffff;
+	background-color: #ff9933;
+	border: 2px solid #ffff;
+}
+#india .abutton{
+	background:transparent;
+	color: #ffff;
+	text-decoration:none;
+	transition-duration: 0.3s;
+	border-radius:18px;
+}
+#india .butt_on:hover{
+	transition-duration: 0.3s;
+    backdrop-filter: blur(10px) saturate(200%);
+    border-radius:18px ;
+    background-color: rgba(124, 172, 134, 0.26);
+    border: 2px solid rgba(255, 255, 255, 0.125);
+    color:white;
+}
+#explore_world{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(../Images/world/world-map.jpg) no-repeat center;
+    background-size: 100% 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bookflights-world .booking-box{
+	margin-top: -100px;
+    box-shadow: 0px 10px 10px gray;
+    background-color: #004687;
+}
+#bookflights-world .searchflight{
+	color: #004687;
+	border-radius: 16px;
+	border: 2px solid #004687;
+	font-weight:bold;
+	
+}
+#bookflights-world .searchflight:hover{
+	transition-duration: 0.3s;
+	color:#ffff;
+	background-color: #004687;
+	border: 2px solid #ffff;
+}
+#bookflights-world .booking-box .nav-link:hover{
+  color: #004687;
+  background-color: #fff;
+}
+#bookflights-world .searchflight{
+	color: #004687;
+	border-radius: 16px;
+	border: 2px solid #004687;
+	font-weight:bold;
+	
+}
+#bookflights-world .searchflight:hover{
+	transition-duration: 0.3s;
+	color:#ffff;
+	background-color: black;
+	border: 2px solid #ffff;
+}
+#world .abutton{
+	background:transparent;
+	color: #ffff;
+	text-decoration:none;
+	transition-duration: 0.3s;
+	border-radius:18px;
+}
+#world .butt_on:hover{
+	transition-duration: 0.3s;
+    backdrop-filter: blur(10px) saturate(200%);
+    border-radius:18px ;
+    background-color: rgba(124, 172, 134, 0.26);
+    border: 2px solid rgba(255, 255, 255, 0.125);
+    color:white;
+}
+
+#cargo-information{
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../Images/cargo/information-background-cargo.jpg)no-repeat  center;
+     background-size: 100% 100%;
+ }
+ 
+#cargo-information .container{
+     font-family:'Times New Roman', Times, serif ;
+ }
+
+#cargo-information .card{
+      backdrop-filter: blur(1px) saturate(150%);
+      background-color: rgba(22, 29, 86, 0.5);
+      border-radius: 12px;
+      border: 2px solid rgba(255, 255, 255, 0.500);
+}
+
+#cargo-information .card:hover {
+      transition-duration: 0.5s;                
+      background-color: rgba(18, 26, 43, 0.80);
+      border: 2px solid rgba(255, 255, 255, 0.700);
+}
+
+#cargo-information .inputdesign{
+      background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); 
+      padding: 0px 0px;   
+}
+#cargo-information .butt_on{
+	border: 2px solid #0275d8;
+	background-color:#0275d8;
+	color:#ffff;
+	border-radius: 6px;
+}
+#cargo-information .butt_on:hover{
+	transition-duration: 0.3s;
+    backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(124, 172, 134, 0.26);
+    border: 2px solid rgba(255, 255, 255, 0.125);
+}
+
+
+#Flight-information{
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../Images/information-flights/information-flight-background.jpg)no-repeat  center;
+     background-size: 100% 100%;
+ }
+ 
+#Flight-information .container{
+     font-family:'Times New Roman', Times, serif ;
+ }
+
+#Flight-information .card{
+      backdrop-filter: blur(1px) saturate(150%);
+      background-color: rgba(22, 29, 86, 0.5);
+      border-radius: 12px;
+      border: 2px solid rgba(255, 255, 255, 0.500);
+}
+
+#Flight-information .card:hover {
+      transition-duration: 0.5s;                
+      background-color: rgba(18, 26, 43, 0.80);
+      border: 2px solid rgba(255, 255, 255, 0.700);
+}
+
+#Flight-information .butt_on{
+	border: 2px solid #8e2157;
+	background-color:#8e2157;
+	color:#ffff;
+	border-radius: 6px;
+}
+#Flight-information .butt_on:hover{
+	transition-duration: 0.3s;
+    backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(124, 172, 134, 0.26);
+    border: 2px solid rgba(255, 255, 255, 0.125);
+}
+.ticket-background{
+    background:url(../Images/ticket-worldmap.jpg) no-repeat center;
+    background-size: 100% 100%; 
+}
+.print{
+	background-color:#8e2157;
+	color:#ffff;
+	border: 2px solid #ffff;
+}
+.print:hover{
+	transition: 0.5s;
+	background-color: #ffff;
+	color: #8e2157;
+	border: 2px solid #8e2157;
+}
+.footer{
+	background-color:black;
+}
+.bg-main{
+    background-color: #f2f3fa;
+}
+.bg-card:hover{
+    transition: 0.5s;
+    box-shadow: 8px 8px 12px  gray;
+}
+.word{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.extrainformation{
+	background-color:black;
+}
+.fimage{
+    height: 300px;
+    border-radius:6px;
+}
+

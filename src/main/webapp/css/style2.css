@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url("../Images/world/world-map.jpg")no-repeat;
+  background-size: 100% 100%;
+}
+#payment .card {
+  backdrop-filter: blur(0px) saturate(170%);
+  background-color: rgba(50, 50, 101, 0.34);
+  border: 2px solid rgba(255, 255, 255, 0.200);
+}
+#payment .card:hover{
+  transition-duration: 0.5s;
+  backdrop-filter: blur(4px) saturate(170%);
+  background-color: rgba(18, 26, 43, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.500);	
+}
+
+.container {
+  position: relative;
+  background: transparent;
+  padding: 25px;
+  border-radius: 28px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+header,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  width: 48px;
+  margin-right: 10px;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+header .chip {
+  width: 60px;
+}
+h6 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+}
+h5.number {
+  margin-top: 4px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+h5.name {
+  margin-top: 20px;
+}
+.container .card-details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+input[type="text"] {
+        background:transparent;
+        
+    }
+input[type="password"]{
+		
+	background:transparent;
+}
+.inputdesign{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  border: 1px solid white;
+  
+  color: aliceblue;
+}
