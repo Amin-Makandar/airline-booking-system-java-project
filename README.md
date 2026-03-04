@@ -27,25 +27,25 @@ A dynamic web application for booking airline tickets.
 ## Project Screenshots
 
 ### Home Page
-![Home Page](screenshots/home-page.png)
+![Home Page](screenshots/home_page.png)
 
 ### Signup Page
-![Signup Page](screenshots/signup-page.png)
+![Signup Page](screenshots/signup_page.png)
 
 ### Login Page
-![Login Page](screenshots/login-page.png)
+![Login Page](screenshots/login_page.png)
 
 ### Flight Booking
-![Flight Booking](screenshots/flight-booking.png)
+![Flight Booking](screenshots/flight_booking.png)
 
 ### Seat Selection
-![Seat Selection](screenshots/seat-selection.png)
+![Seat Selection](screenshots/seat_selection.png)
 
 ### Payment Page
-![Payment Page](screenshots/payment-page.png)
+![Payment Page](screenshots/payment_page.png)
 
 ### Ticket Confirmation
-![Ticket Confirmation](screenshots/ticket-confirmation.png)
+![Ticket Confirmation](screenshots/ticket_confirmation.png)
 
 
 ## Author
