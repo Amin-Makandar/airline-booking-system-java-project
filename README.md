@@ -46,3 +46,7 @@ A dynamic web application for booking airline tickets.
 
 ### Ticket Confirmation
 ![Ticket Confirmation](screenshots/ticket-confirmation.png)
+
+
+## Author
+Amin Makandar
