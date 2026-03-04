@@ -23,3 +23,26 @@ A dynamic web application for booking airline tickets.
 - Eclipse IDE
 - Apache Tomcat
 - MySQL Database
+
+## Project Screenshots
+
+### Home Page
+![Home Page](screenshots/home-page.png)
+
+### Signup Page
+![Signup Page](screenshots/signup-page.png)
+
+### Login Page
+![Login Page](screenshots/login-page.png)
+
+### Flight Booking
+![Flight Booking](screenshots/flight-booking.png)
+
+### Seat Selection
+![Seat Selection](screenshots/seat-selection.png)
+
+### Payment Page
+![Payment Page](screenshots/payment-page.png)
+
+### Ticket Confirmation
+![Ticket Confirmation](screenshots/ticket-confirmation.png)
